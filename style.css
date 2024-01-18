@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'GeistMono-Black';
+  src: url('../public/assets/fonts/GeistMono-SemiBold.woff2') format('woff2');
+}
+
+html,
+body {
+  margin: 0px;
+  background-color: #2f4f30;
+  color: #fff;
+  font-family: GeistMono-Black;
+  overflow-x: hidden;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+  margin-top: 13px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+  font-size: 25px;
+}
+
+.carta {
+  position: relative;
+  height: 220px;
+  width: 150px;
+  left: 100px;
+  margin-top: 8px;
+  margin-left: -90px;
+}
+
+#computadora-cartas, #jugador-cartas{
+  height: 240px;
+  min-width: 170px;
+  max-width: 100%;
+  width: auto;
+  border-radius: 10px;
+  display: inline-flex; 
+}
+
+@media screen and (max-width: 990px) {
+  
+  #main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .carta{
+    left: 95px;
+    bottom: 4px;
+    height: 155px;
+    width: 108px;
+  }
+
+  #computadora-cartas, #jugador-cartas{
+    height: 165px;
+    min-width: 120px;
+    max-width: 100%;
+    width: auto;
+    border-radius: 10px;
+    display: inline-flex; 
+  }
+
+}
