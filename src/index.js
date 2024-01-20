@@ -11,7 +11,8 @@ import { crearDeck, pedirCarta, valorCarta, turnoComputadora, crearCartaHTML } f
  const tipos      = ['C','D','H','S'];
  const especiales = ['A','J','Q','K'];
  
- let puntosJugador = 0;
+ let puntosJugador = 0
+ let puntosComputadora 
  
  // Referencias del HTML
  const btnPedir   = document.querySelector('#btnPedir');

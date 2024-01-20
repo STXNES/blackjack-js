@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'GeistMono-Black';
-  src: url('../public/assets/fonts/GeistMono-SemiBold.woff2') format('woff2');
+  src: url('../../assets/fonts/GeistMono-SemiBold.woff2') format('woff2');
 }
 
 html,
